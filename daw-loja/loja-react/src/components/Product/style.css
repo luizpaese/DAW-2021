@@ -1,0 +1,28 @@
+.products .card-body h5{
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.products .card-body .details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.products .details .price p {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.products .details .star-rating,
+.products .details .price h3 {
+    color:#a237cc;
+}
+
+.products .details .price p {
+    font-size: 12px;
+    text-decoration:line-through;
+}
